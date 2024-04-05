@@ -1,0 +1,74 @@
+.movie-search-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+  align-items: center; 
+  }
+  
+  .search-bar input {
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; 
+    cursor: pointer;
+  }
+  
+  .search-results-container {
+    margin-top: 20px; /* Added margin top */
+  }
+  
+  .clear-results {
+    margin-bottom: 10px; /* Added margin bottom */
+  }
+  
+  .clear-results button {
+    padding: 8px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  .search-result-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .search-result-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .selected-item {
+    margin-top: 20px;
+  }
+  
+  .selected-item button {
+    margin-top: 10px;
+  }
+  

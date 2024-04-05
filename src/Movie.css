@@ -1,0 +1,203 @@
+/* Adjust width and overflow for the category containers */
+.popular-movies,
+.rom-com-movies,
+.action-movies,
+.thriller-movies {
+  margin-top: 30px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Ensure movie list has proper display and overflow settings */
+.movie-list {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* Adjust margin and display for movie items */
+.movie {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  flex-shrink: 0; /* Prevent movies from shrinking */
+  
+}
+
+/* Hide scrollbar */
+.movie-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Adjust image width and border-radius */
+.movie img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Adjust heading position and styles */
+.movie h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 0px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+
+.content {
+  padding: 20px; /* Adjust padding as needed */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: auto;
+  height: 100vh;
+  
+}
+
+
+/* HeroBanner.css */
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust the height as needed */
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center items */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  flex: 1; /* Occupy remaining space */
+  padding: 0 20px; /* Add padding for spacing */
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.watch-now-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.watch-now-button:hover {
+  background-color: #ff0b1a;
+}
+
+.hero-video-player {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: black; /* Set background color to black */
+}
+
+.hero-video-player iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* TVShowsPage.css */
+
+.tv-shows-page {
+  background-color: black !important;
+  padding: 20px; /* Add padding for spacing */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  color: #fff;
+}
+
+/* Adjust width and overflow for the category containers */
+.tv-shows-row {
+  margin-top: 30px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  color: #fff;
+}
+
+/* Ensure show list has proper display and overflow settings */
+.show-list {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* Adjust margin and display for show items */
+.show {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  flex-shrink: 0; /* Prevent shows from shrinking */
+}
+
+/* Hide scrollbar */
+.show-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Adjust image width and border-radius */
+.show img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Adjust heading position and styles */
+.show h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 0px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #fff;
+}
